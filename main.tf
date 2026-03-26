@@ -1,4 +1,5 @@
 module "VPC" {
+    # source = "git::https://github.com/viswanadhammanchem13/VPC_Practice.git?ref=main"
     source = "../VPC_Practice"
     project = var.project
     environment = var.environment
